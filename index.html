@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Inicial</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+</head>
+
+<body>
+    <header>
+        <h1>Utillidade Pública do Rj</h1>
+    </header>
+    <main>
+        <div id="c">
+            <form>
+                <div class="campo">
+                    <label for="sel">Disque ajuda:</label>
+                    <select name="sel" id="sel">
+                        <option value="" selected disabled>Selecione uma opção</option>
+                        <option value="1">1 - Polícia Militar</option>
+                        <option value="2">2 - Bombeiros</option>
+                        <option value="3">3 - SAMU</option>
+                        <option value="4">4 - Defesa Civil</option>
+                        <option value="5">5 - Polícia Civil</option>
+                        <option value="6">6 - Delegacia do Turista (DEAT)</option>
+                        <option value="7">7 - Disque Denúncia</option>
+                        <option value="8">8 - Central de Atendimento à Mulher</option>
+                        <option value="9">9 - Direitos Humanos</option>
+                        <option value="10">10 - Procon</option>
+                        <option value="11">11 - HemoRio</option>
+                        <option value="12">12 - Detran</option>
+                        <option value="13">13 - Disque Ambiente</option>
+                    </select>
+                </div>
+                <div id="res"></div>
+
+                <button type="button" id="btn" onclick="ligar()">Consultar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Utillidade Pública. Todos os direitos reservados.</p>
+        <p>Desenvolvido por: <a id="i" href="https://github.com/schutz-br" target="_blank">Schutz-br</a></p>
+    </footer>
+</body>
+
+</html>
